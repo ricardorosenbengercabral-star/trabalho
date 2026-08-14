@@ -285,6 +285,18 @@ a { color: var(--water-500); }
 }
 .sun-rays line { animation: rays-pulse 2.4s ease-in-out infinite; }
 
+@keyframes newton-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+#newton-disc {
+  transform-origin: 0 0;
+  transform-box: fill-box;
+}
+#newton-disc.girando {
+  animation: newton-spin 0.6s linear infinite;
+}
+
 /* ============================================
    Sections
    ============================================ */
