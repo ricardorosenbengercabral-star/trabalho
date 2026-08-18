@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sol & Água — Aquecimento Solar da Piscina Térmica do CEP</title>
+<title>Sol &amp; Água — Aquecimento Solar da Piscina Térmica do CEP</title>
 <meta name="description" content="Projeto Integrador: sistema conceitual de aquecimento solar e automação para a piscina térmica do CEP, com óptica, robótica e acessibilidade digital.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
 
 <header class="site-header">
@@ -132,7 +131,6 @@
       <p class="eyebrow">02 · Tecnociência e Óptica Aplicada</p>
       <h2>A física da luz escolhendo os materiais do coletor</h2>
     </div>
-
     <div class="grid-2">
       <div>
         <h3>Absorção, reflexão e refração</h3>
@@ -149,7 +147,6 @@
             controlado que evita que o calor escape.</li>
         </ul>
       </div>
-
       <div class="diagram-card">
         <svg viewBox="0 0 320 200" role="img" aria-labelledby="diag1-title diag1-desc">
           <title id="diag1-title">Corte transversal de um coletor solar</title>
@@ -189,7 +186,6 @@
         </svg>
         <p class="diagram-caption">Fig. 2 — Disco de Newton: a luz branca é a soma de todas as cores do espectro.</p>
       </div>
-
       <div>
         <h3>A analogia com o Disco de Newton e a Câmara Escura</h3>
         <p>
@@ -217,7 +213,6 @@
       <p class="eyebrow">03 · Robótica e Programação</p>
       <h2>Como sensores e atuadores controlam o sistema</h2>
     </div>
-
     <div class="grid-2 align-start">
       <p>
         O sistema não depende de alguém ligando e desligando manualmente. Um pequeno programa, rodando em um
@@ -235,7 +230,6 @@
           compensa energeticamente.</li>
       </ul>
     </div>
-
     <div class="diagram-card wide">
       <svg viewBox="0 0 900 260" role="img" aria-labelledby="flux-title flux-desc" preserveAspectRatio="xMidYMid meet">
         <title id="flux-title">Fluxograma do sistema de automação</title>
@@ -245,37 +239,27 @@
             <path d="M0 0 L10 5 L0 10 z" fill="var(--teal-900)"/>
           </marker>
         </defs>
-
         <rect x="20" y="100" width="150" height="60" rx="10" fill="var(--surface)" stroke="var(--teal-900)" stroke-width="2.5"/>
         <text x="95" y="126" class="svg-label small" text-anchor="middle">Sensor de</text>
         <text x="95" y="142" class="svg-label small" text-anchor="middle">temperatura</text>
-
         <line x1="170" y1="130" x2="220" y2="130" stroke="var(--teal-900)" stroke-width="2.5" marker-end="url(#arrow)"/>
-
         <rect x="222" y="100" width="150" height="60" rx="10" fill="var(--surface)" stroke="var(--teal-900)" stroke-width="2.5"/>
         <text x="297" y="126" class="svg-label small" text-anchor="middle">Microcontrolador</text>
         <text x="297" y="142" class="svg-label small" text-anchor="middle">(decide)</text>
-
         <line x1="372" y1="130" x2="422" y2="130" stroke="var(--teal-900)" stroke-width="2.5" marker-end="url(#arrow)"/>
-
         <path d="M500 100 L575 130 L500 160 L425 130 Z" fill="var(--amber-100)" stroke="var(--teal-900)" stroke-width="2.5"/>
         <text x="500" y="126" class="svg-label small" text-anchor="middle">Temp. abaixo</text>
         <text x="500" y="142" class="svg-label small" text-anchor="middle">do ideal?</text>
-
         <line x1="500" y1="160" x2="500" y2="205" stroke="var(--teal-900)" stroke-width="2.5" marker-end="url(#arrow)"/>
         <text x="512" y="185" class="svg-label small">sim</text>
-
         <rect x="410" y="207" width="180" height="46" rx="10" fill="var(--surface)" stroke="var(--water-500)" stroke-width="2.5"/>
         <text x="500" y="235" class="svg-label small" text-anchor="middle">Liga motor + bomba</text>
-
         <line x1="590" y1="230" x2="770" y2="230" stroke="var(--water-500)" stroke-width="2.5" marker-end="url(#arrow)"/>
         <rect x="772" y="204" width="110" height="52" rx="10" fill="var(--surface)" stroke="var(--water-500)" stroke-width="2.5"/>
         <text x="827" y="226" class="svg-label small" text-anchor="middle">Água circula</text>
         <text x="827" y="242" class="svg-label small" text-anchor="middle">no coletor</text>
-
         <path d="M827 204 C 827 40, 297 40, 297 98" fill="none" stroke="var(--water-500)" stroke-width="2.5" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
         <text x="560" y="30" class="svg-label small">ciclo se repete</text>
-
         <line x1="575" y1="130" x2="700" y2="130" stroke="var(--teal-900)" stroke-width="2.5" marker-end="url(#arrow)"/>
         <text x="600" y="118" class="svg-label small">não</text>
         <rect x="702" y="100" width="170" height="60" rx="10" fill="var(--surface)" stroke="var(--teal-900)" stroke-width="2.5"/>
@@ -294,19 +278,16 @@
       <p class="section-lead">Ajuste os controles como se estivesse programando o sistema e veja, em tempo
         real, como a inclinação e a cor da placa mudam a eficiência do aquecimento.</p>
     </div>
-
     <div class="simulator">
       <div class="sim-controls">
         <div class="control">
           <label for="range-inclinacao">Inclinação do coletor: <span id="valor-inclinacao">30</span>°</label>
           <input type="range" id="range-inclinacao" min="0" max="90" value="30">
         </div>
-
         <div class="control">
           <label for="range-sol">Intensidade de sol (nebulosidade / hora do dia): <span id="valor-sol">80</span>%</label>
           <input type="range" id="range-sol" min="10" max="100" value="80">
         </div>
-
         <div class="control">
           <label for="select-cor">Cor da superfície do coletor</label>
           <select id="select-cor">
@@ -315,11 +296,9 @@
             <option value="0.15">Branco / espelhado (baixa absorção)</option>
           </select>
         </div>
-
         <button id="btn-simular" type="button" class="btn btn-primary">Simular 1 hora de sol</button>
         <p id="status-simulacao" class="sim-status" role="status" aria-live="polite"></p>
       </div>
-
       <div class="sim-visual">
         <svg viewBox="0 0 300 190" role="img" aria-label="Coletor solar animado que se inclina conforme os controles, ligado por um cano à piscina">
           <circle id="sim-sol" cx="248" cy="28" r="18" fill="var(--amber-500)"/>
@@ -336,7 +315,6 @@
           <rect x="0" y="150" width="300" height="40" fill="var(--water-300)"/>
           <path d="M0 150 q25 -8 50 0 t50 0 t50 0 t50 0 t50 0 t50 0" fill="none" stroke="var(--water-500)" stroke-width="2" opacity="0.6"/>
         </svg>
-
         <div class="gauge">
           <svg viewBox="0 0 200 110" role="img" aria-hidden="true">
             <path d="M10 100 A90 90 0 0 1 190 100" fill="none" stroke="var(--bg-alt)" stroke-width="14"/>
@@ -408,20 +386,24 @@
     </div>
     <div class="cards team-cards">
       <div class="card">
-        <h3>Integrante 1</h3>
-        <p>Função no projeto (ex.: pesquisa de óptica)</p>
+        <h3>Raquel</h3>
+        <p>Pesquisa de óptica</p>
       </div>
       <div class="card">
-        <h3>Integrante 2</h3>
-        <p>Função no projeto (ex.: programação do simulador)</p>
+        <h3>Sara</h3>
+        <p>Design e acessibilidade do site</p>
       </div>
       <div class="card">
-        <h3>Integrante 3</h3>
-        <p>Função no projeto (ex.: design e acessibilidade do site)</p>
+        <h3>Elena</h3>
+        <p>Programação do simulador</p>
       </div>
       <div class="card">
-        <h3>Integrante 4</h3>
-        <p>Função no projeto (ex.: automação e sensores)</p>
+        <h3>Bernardo</h3>
+        <p>Automação e sensores</p>
+      </div>
+      <div class="card">
+        <h3>Ricardo</h3>
+        <p>Redação e apresentação</p>
       </div>
     </div>
 
@@ -429,13 +411,10 @@
       <h3>Fale com a equipe</h3>
       <label for="campo-nome">Nome</label>
       <input type="text" id="campo-nome" name="nome" placeholder="Seu nome" required>
-
       <label for="campo-email">E-mail</label>
       <input type="email" id="campo-email" name="email" placeholder="seuemail@exemplo.com" required>
-
       <label for="campo-mensagem">Mensagem</label>
       <textarea id="campo-mensagem" name="mensagem" rows="5" placeholder="Sua dúvida, sugestão ou elogio" required></textarea>
-
       <button type="submit" class="btn btn-primary">Enviar mensagem</button>
       <p id="mensagem-envio" role="status" aria-live="polite"></p>
     </form>
